@@ -157,17 +157,7 @@ export default function LoginPage() {
             </button>
           </form>
 
-          {mode === 'login' && (
-            <div style={{
-              marginTop: 20, padding: '14px', background: 'var(--bg-card2)',
-              borderRadius: 'var(--radius-sm)', fontSize: 12,
-              color: 'var(--text-muted)', borderLeft: '2px solid var(--accent)',
-            }}>
-              <strong style={{ color: 'var(--accent)' }}>Contas de teste:</strong><br />
-              📧 usuario@precificapro.com · senha: <strong>123456</strong><br />
-              📧 demo@precificapro.com · senha: <strong>demo</strong>
-            </div>
-          )}
+
         </div>
       </div>
     </div>
